@@ -106,7 +106,7 @@ DATABASES['default'].update(db_from_env)
 
 ALLOWED_HOSTS=['bucci-be-production.up.railway.app','127.0.0.1', 'https://bucci-be-production.up.railway.app/admin','http://localhost:4200']
 
-CSRF_TRUSTED_ORIGINS = ['hhttps://bucci-be-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://bucci-be-production.up.railway.app']
 
 UPLOADCARE = {  
     'pub_key': config('pub_key'),
